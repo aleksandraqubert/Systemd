@@ -82,10 +82,5 @@ aleksandra@aleksandra-VirtualBox:~$ PORT=8888 java -jar /opt/sample/service.jar
 2023-10-02 14:03:05.100  INFO 7820 --- [           main] c.d.s.ServicesLabApplicationKt           : No active profile set, falling back to 1 default profile: "default"
 2023-10-02 14:03:13.903  INFO 7820 --- [           main] o.s.b.web.embedded.netty.NettyWebServer  : Netty started on port 8888
 2023-10-02 14:03:14.043  INFO 7820 --- [           main] c.d.s.ServicesLabApplicationKt           : Started ServicesLabApplicationKt in 10.534 seconds (JVM running for 12.078)
-^Caleksandra@aleksandra-VirtualBox:~$ git init
-Команда «git» не найдена, но может быть установлена с помощью:
-sudo apt install git
-aleksandra@aleksandra-VirtualBox:~$ pwd
-/home/aleksandra
 aleksandra@aleksandra-VirtualBox:~$ sudo systemctl stop sample.service
 aleksandra@aleksandra-VirtualBox:~$ sudo rm /etc/systemd/system/sample.service
