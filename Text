@@ -1,6 +1,6 @@
 To run a command as administrator (user "root"), use "sudo <command>".
 See "man sudo_root" for details.
-aleksandra@aleksandra-VirtualBox:~$ sudo apt update
+
 aleksandra@aleksandra-VirtualBox:~$ sudo apt-get install openjdk-11-jre curl -y
 aleksandra@aleksandra-VirtualBox:~$ sudo mkdir -p /opt/sample
 aleksandra@aleksandra-VirtualBox:~$ sudo chown ${USER}:${GROUP} /opt/sample
