@@ -87,3 +87,5 @@ aleksandra@aleksandra-VirtualBox:~$ PORT=8888 java -jar /opt/sample/service.jar
 sudo apt install git
 aleksandra@aleksandra-VirtualBox:~$ pwd
 /home/aleksandra
+aleksandra@aleksandra-VirtualBox:~$ sudo systemctl stop sample.service
+aleksandra@aleksandra-VirtualBox:~$ sudo rm /etc/systemd/system/sample.service
